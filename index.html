@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/943dc85464.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="contactForm">
+        <h1>Formulaire de contact</h1>
+        <button class="close"><i class="fas fa-times"></i></button>
+
+        <input id="firstname" type="text" placeholder="Prénom" value="" name="firstname" />
+
+        <input id="lastname" type="text" placeholder="Nom" value="" name="lastname" />
+
+        <input id="email" type="email" placeholder="Email" value="" name="email" />
+
+        <input id="subject" type="text" placeholder="Sujet" value="" name="subject" />
+
+        <textarea id="message" rows="10" cols="50" name="message" placeholder="Tapez votre Message ici !" value=""></textarea>
+
+        <input type="submit" value="Envoyer le message " />
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(115, 89, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin: 100px;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(229, 229, 229);
+    border-radius: 5px;
+    position: relative;
+}
+
+h1 {
+    font-size: XX-large;
+    font-weight: bolder;
+    margin: 40px;
+}
+
+textarea,
+input {
+    margin: 5px;
+    outline: none;
+    width: 90%;
+    padding: 1%;
+    font-size: large;
+    border-radius: 2px;
+    box-shadow: 15px;
+    border: none;
+}
+
+textarea {
+    height: 30%;
+}
+
+.close {
+    border: none;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    padding: 0;
+    width: 90%;
+    padding: 10px;
+    border-radius: 1px;
+    background-color: rgb(115, 89, 220);
+    color: white;
+    cursor: pointer;
+}
+
+button {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+i.fas.fa-times {
+    margin: auto;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.hidden {
+    display: none;
+}
